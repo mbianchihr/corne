@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 
 / {
     keymap {
@@ -21,10 +22,10 @@
 
             display-name = "Base";
             bindings = <
-&kp ESCAPE  &kp Q        &mt LC(W) W  &kp E        &kp R        &kp T            &kp Y      &kp U        &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL   &mt LC(A) A  &mt LC(S) S  &kp D        &kp F        &kp G            &kp H      &kp J        &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT   &kp Z        &kp X        &mt LG(C) C  &mt LG(V) V  &mt LC(B) B      &kp N      &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                                      &kp LGUI     &mo 1        &kp BACKSPACE    &kp SPACE  &lt 2 ENTER  &kp RALT
+&kp ESCAPE  &kp Q  &kp W  &kp E     &kp R  &kp T            &kp Y      &kp U        &kp I      &kp O    &kp P     &kp BSPC
+&kp LCTRL   &kp A  &kt S  &kp D     &kp F  &kp G            &kp H      &kp J        &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT   &kp Z  &kp X  &kp C     &kp V  &kp B            &kp N      &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                          &kp LGUI  &mo 1  &kp BACKSPACE    &kp SPACE  &lt 2 ENTER  &kp RALT
             >;
         };
 
