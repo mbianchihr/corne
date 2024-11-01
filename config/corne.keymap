@@ -15,25 +15,21 @@
         lk {
             bindings = <&kp ENTER>;
             key-positions = <20 21>;
-            layers = <0>;
         };
 
         po {
             bindings = <&kp BACKSPACE>;
             key-positions = <9 10>;
-            layers = <0>;
         };
 
         ds {
             bindings = <&kp TAB>;
             key-positions = <14 15>;
-            layers = <0>;
         };
 
         jk {
             bindings = <&kp ESCAPE>;
             key-positions = <19 20>;
-            layers = <0>;
         };
     };
 
